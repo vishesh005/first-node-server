@@ -1,0 +1,25 @@
+{
+  "name": "webservertest",
+  "version": "1.0.0",
+  "description": "this is express web server",
+  "main": "app.js",
+  "scripts": {
+    "test": "gilli gilli rappa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "khul",
+    "ja",
+    "sim",
+    "sim"
+  ],
+  "author": "Vishesh Pandit ji",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.1"
+  }
+}

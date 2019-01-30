@@ -9,10 +9,10 @@ app.use(express.static(__dirname+'/public'))
 hbs.registerHelper('getCurrentYear',()=> new Date().getFullYear());
 hbs.registerHelper('upperIt',(text)=>text.toUpperCase());
 
-app.use((req,res,next)=>{
-// console.log(`Request happen at ${new Date().toString()} on Ip ${req.ip}`)
-res.render('maintain.hbs');
-});
+// app.use((req,res,next)=>{
+// // console.log(`Request happen at ${new Date().toString()} on Ip ${req.ip}`)
+// res.render('maintain.hbs');
+// });
 
 const home={
   homeTitle:'Home Page',

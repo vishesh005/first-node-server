@@ -16,7 +16,7 @@ hbs.registerHelper('upperIt',(text)=>text.toUpperCase());
 
 const home={
   homeTitle:'Home Page',
-  pageHeading:'Welcome at Developer Vishesh World'
+  pageHeading:'Welcome Every One'
 }
 
 const about={
